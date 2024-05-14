@@ -30,16 +30,4 @@ public class WordDuplicateRemover {
         // Rimuovi lo spazio bianco finale e restituisci il risultato
         return result.toString().trim();
     }
-    
-    public static void main(String[] args) {
-        WordDuplicateRemover remover = new WordDuplicateRemover();
-        
-        // Esempio di utilizzo del metodo
-        String input = "hello world hello universe world";
-        String wordToRemove = "hello";
-        System.out.println("Stringa originale: " + input);
-        
-        String result = remover.removeWordDuplicates(input, wordToRemove);
-        System.out.println("Stringa senza duplicati della parola \"" + wordToRemove + "\": " + result);
-    }
 }

@@ -32,14 +32,4 @@ public class Parcheggio {
         else
             return costoParcheggio;
     }
-
-    public static void main(String[] args) {
-        // Esempio di utilizzo della classe Parcheggio
-        Parcheggio parcheggio = new Parcheggio(3, 10, true); // Numero minimo di ore: 3, Costo massimo: 10 euro, Massimo 24 ore? Si
-
-        // Esempio di calcolo del costo del parcheggio per 8 ore
-        int oreParcheggio = 28;
-        double costo = parcheggio.calcolaCostoParcheggio(oreParcheggio);
-        System.out.println("Il costo del parcheggio per " + oreParcheggio + " ore è di: " + costo + " euro");
-    }
 }
