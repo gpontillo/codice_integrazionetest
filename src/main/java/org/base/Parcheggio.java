@@ -19,6 +19,7 @@ public class Parcheggio {
         if (oreParcheggio <= numeroMinimoOre) {
             costoParcheggio = 2.0; // Costo minimo di 2 euro
         } else {
+            // Limita il quantitativo ore a un giorno o illimitato
             if (maxUnGiorno)
                 costoParcheggio = 2.0 + ((Math.min(oreParcheggio, 24) - numeroMinimoOre) * 0.5); // 50 centesimi per ogni ora in più fino ad un max di 24 ore
             else
