@@ -6,4 +6,3 @@ La classe java Parcheggio verrà usata per il secondo homework, ed è una classe
 - se il numero d'ore è inferiore o uguale al minimo di numero ore, il costo è di 2 euro.
 - oltre questo quantitativo d'ore, si paga 50 centesimi per ogni ora.
 - si può specificare un massimo di costo che il costo non può superare.
-- si può specificare anche se il costo deve essere calcolato se massimo su 24 ore o anche oltre.
