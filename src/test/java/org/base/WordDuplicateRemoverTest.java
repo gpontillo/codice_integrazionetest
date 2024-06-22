@@ -26,7 +26,7 @@ public class WordDuplicateRemoverTest {
         assertEquals("gagagigo", wordDuplicateRemover.removeWordDuplicates("gagagigo", ""));
     }
 
-    // Da T5 a T12
+    // Da T5 fino a T12
     @ParameterizedTest
     @MethodSource("forInputOfVariousLength")
     public void inputAndWordVariousLength(String expected, String input, String word) {
